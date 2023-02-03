@@ -1,6 +1,12 @@
 # HomeServer
 
-## run server (public)
+## requirements:
+- python 3.7+
+- FastAPI & Uvicorn [install guide](https://fastapi.tiangolo.com/)
+
+
+## API server
+### run
 ```
 python -m uvicorn main:app --host 0.0.0.0 --port 8000
 ```
