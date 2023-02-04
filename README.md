@@ -8,7 +8,7 @@
 ## API server
 ### run
 ```
-python -m uvicorn main:app --host 0.0.0.0 --port 8000
+python -m uvicorn sql_app.main:app --host 0.0.0.0 --port 8000
 ```
 
 ### api url:
